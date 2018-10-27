@@ -18,6 +18,12 @@
           </header>
           <p>Talented software developer with 4+ years of experience building dynamic, responsive web applications tailored to customer needs. Proven ability to integrate complex requirements into technical features, ensuring delivery of key functionality. Dedicated to overcoming problems and project impediments through creative application of technology solutions. Outstanding analytical skills leveraged to effectively plan and implement highly complex, cross-platform technology solutions. Skilled at testing and troubleshooting applications.
 </p>
+
+<ul>
+  <li *ngFor="let item of items | async">
+     {{ item | json }}
+  </li>
+</ul>
         </section>
 
       <!-- Two -->
